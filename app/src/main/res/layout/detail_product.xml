@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".DetailProduct"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/ivDetailProductImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:gravity="center"
+        android:text="Nama"
+        android:id="@+id/tvDetailProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+       />
+
+    <TextView
+        android:text="des"
+        android:id="@+id/tvDetailProductDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:text="color"
+        android:id="@+id/tvDetailProductColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:text="size"
+        android:id="@+id/tvDetailProductSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:text="price"
+    android:id="@+id/tvDetailProductPrice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    />
+
+    <TextView
+        android:text="Stok"
+        android:id="@+id/tvDetailProductStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        />
+
+
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit"
+      />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="Delete"
+        />
+
+
+</LinearLayout>
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<LinearLayout-->
+    <!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--    android:orientation="vertical"-->
+    <!--    android:layout_width="match_parent"-->
+    <!--    android:layout_height="match_parent">-->
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/ivDetailProductImage"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"/>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvDetailProductName"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="20sp"/>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvDetailProductDesc"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:layout_height="wrap_content"/>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvDetailProductColor"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="20sp"/>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvDetailProductSize"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="20sp"/>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvDetailProductStock"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="20sp"/>-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/tvDetailProductPrice"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:textSize="20sp"/>-->
+
+    <!--</LinearLayout>-->

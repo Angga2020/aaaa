@@ -1,0 +1,28 @@
+package com.example.myapplication.Models
+
+import android.os.Parcelable
+import com.example.myapplication.Services.ApiClient
+import com.example.myapplication.Services.ProductApi
+import kotlinx.android.parcel.Parcelize
+
+@Parcelize
+data class Product(val data: ArrayList<Data>): Parcelable
+
+@Parcelize
+data class Data(val id: String,
+                val type: String,
+                val attributes: Attribute): Parcelable
+@Parcelize
+data class Attribute(val id: Int,
+                     val name : String,
+                     val description : String,
+                     val color : String,
+                     val size : String,
+                     val inStock : String,
+                     val price : Int,
+                     val createdAt : String,
+                     val updatedAt : String,
+                     val images: ArrayList<Image>): Parcelable
+@Parcelize
+data class Image(val fileName: String,
+                 val imageUrl: String): Parcelable
